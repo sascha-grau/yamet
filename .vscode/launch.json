@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PowerShell: Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "PowerShell: Launch Tests",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}\\build\\build.ps1",
+            "args": [
+                "-Task",
+                "Test"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "PowerShell: Interactive Session",
+            "type": "PowerShell",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "createTemporaryIntegratedConsole": false
+        }
+    ]
+}
