@@ -18,13 +18,13 @@
     GUID = 'a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67890'
 
     # Author of this module
-    Author = 'Your Name'
+    Author = 'Sascha Grau'
 
     # Company or vendor of this module
     CompanyName = 'Unknown'
 
     # Copyright statement for this module
-    Copyright = '(c) 2025 Your Name. All rights reserved.'
+    Copyright = '(c) 2025 Sascha Grau. All rights reserved.'
 
     # Description of the functionality provided by this module
     Description = 'Yet Another Media Encoding Toolkit - A PowerShell module for video encoding and media file management with cross-platform support'
